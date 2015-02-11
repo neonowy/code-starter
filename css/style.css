@@ -1,0 +1,83 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+h2 {
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 18px;
+}
+
+a {
+  color: #03A9F4;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+a:hover {
+  color: #01579B;
+}
+
+pre {
+  width: 960px;
+  margin: 20px auto;
+  border: 1px solid;
+  border-color: #CDD2D6 #BFC6CB #B3BBC1 #BFC6CB;
+  border-radius: 2px;
+  position: relative;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .08);
+}
+
+pre label {
+  width: 80px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+  color: #4B555C;
+  position: absolute;
+  left: 1px;
+  top: 16px;
+}
+
+pre code {
+  display: block;
+  margin: 0 0 0 80px;
+  padding: 15px 16px 14px;
+  border-left: 1px #E5EAEE solid;
+  overflow-x: auto;
+  font-size: 13px;
+  line-height: 19px;
+  color: #333;
+  font-family: "Inconsolata", "Monaco", "Consolas", "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+}
+
+.language-css {
+  color: #D84400;
+}
+
+.language-markup {
+  color: #4576D5;
+}
+
+.language-js {
+  color: #F92672;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #F5F5F5;
+  border-top: 1px #CDD2D6 solid;
+}
+
+.fi-heart {
+  color: #E91E63;
+}
